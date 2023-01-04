@@ -21,7 +21,7 @@ pipeline {
        stage('deploy') {
             steps {
                 echo 'deploy job for downloading application'
-                bat 'python  main/reverseval.py'
+                bat 'pyhton reverseval.py'
             }
         } 
     }
